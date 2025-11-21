@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - FitPro</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav>
+            <div class="nav-container">
+                <div class="logo" onclick="window.location.href='index.html'">
+                    <i class="fas fa-dumbbell"></i>
+                    <span>FitPro</span>
+                </div>
+                
+                <ul class="nav-menu" id="navLinks">
+                    <li><a class="nav-link" href="index.html">Home</a></li>
+                    <li><a class="nav-link" href="about.html">About</a></li>
+                    <li><a class="nav-link" href="services.html">Services</a></li>
+                    <li><a class="nav-link" href="schedule.html">Schedule</a></li>
+                    <li><a class="nav-link" href="blog.html">Blog</a></li>
+                    <li><a class="nav-link" href="testimonials.html">Testimonials</a></li>
+                    <li><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li><a class="nav-link active" href="faq.html">FAQ</a></li>
+                    <li><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                
+                <div class="hamburger" onclick="toggleMenu()">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Content -->
+    <div class="page-content">
+        <div class="section-header">
+            <h1>Frequently Asked Questions</h1>
+            <p>Find answers to common questions about our services</p>
+        </div>
+        
+        <section class="about-section">
+            <div class="container">
+                <div class="faq-container">
+                    <div class="faq-category">
+                        <h2><i class="fas fa-dollar-sign"></i> Pricing & Membership</h2>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question" onclick="toggleFaq(this)">
+                                <h3>What are your membership options and pricing?</h3>
+                                <div class="faq-icon">+</div>
+                            </div>
+                            <div class="faq-answer">
+                                <p>We offer several membership options: Personal Training sessions at $75 per session, Group Classes at $25 per class or $150/month for unlimited access, and Nutrition Guidance at $200/month. We also offer package deals and family discounts. Contact us for a customized plan that fits your needs and budget.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question" onclick="toggleFaq(this)">
+                                <h3>Is there a membership contract or cancellation fee?</h3>
+                                <div class="faq-icon">+</div>
+                            </div>
+                            <div class="faq-answer">
+                                <p>We offer both month-to-month and 6-month commitment options. Month-to-month memberships can be cancelled with 30 days notice. There are no cancellation fees for monthly memberships. Our 6-month packages offer better rates and can be put on hold for medical reasons with a doctor's note.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question" onclick="toggleFaq(this)">
+                                <h3>Do you offer a free trial or first session discount?</h3>
+                                <div class="faq-icon">+</div>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Yes! We offer a free facility tour and consultation for all new clients. First-time visitors can also try one group class for free. Personal training clients receive 20% off their first session. This allows you to experience our facility, meet our trainers, and determine if we're the right fit for your fitness journey.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-category">
+                        <h2><i class="fas fa-dumbbell"></i> Training & Programs</h2>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question" onclick="toggleFaq(this)">
+                                <h3>I'm a complete beginner. Will I be able to keep up?</h3>
+                                <div class="faq-icon">+</div>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Absolutely! We work with clients of all fitness levels, from complete beginners to advanced athletes. Our trainers specialize in creating customized programs that match your current fitness level and progress at your pace. Every exercise can be modified to ensure you're challenged but not overwhelmed. We believe everyone deserves to feel confident in their fitness journey.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question" onclick="toggleFaq(this)">
+                                <h3>How often should I train per week?</h3>
+                                <div class="faq-icon">+</div>
+                            </div>
+                            <div class="faq-answer">
+                                <p>For optimal results, we recommend 3-5 training sessions per week, depending on your goals. Beginners typically start with 2-3 sessions to allow proper recovery. Those focused on significant weight loss or muscle building may train 4-5 times weekly. Your trainer will create a schedule that balances workout intensity with adequate recovery time based on your specific goals and lifestyle.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question" onclick="toggleFaq(this)">
+                                <h3>What's the difference between personal training and group classes?</h3>
+                                <div class="faq-icon">+</div>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Personal training provides one-on-one attention with a dedicated trainer who creates a fully customized program for your goals, provides constant form correction, and adjusts workouts in real-time. Group classes offer a structured workout in a motivating group environment with up to 15 participants. Both are effective - personal training is ideal for specific goals or those needing extra attention, while group classes are great for motivation, variety, and community.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question" onclick="toggleFaq(this)">
+                                <h3>Can I do both strength training and cardio?</h3>
+                                <div class="faq-icon">+</div>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Yes, and we highly recommend it! A balanced fitness program includes both strength training and cardiovascular exercise. Our trainers design programs that incorporate both elements in the right proportion for your goals. Strength training builds muscle and boosts metabolism, while cardio improves heart health and endurance. We'll create a balanced approach that maximizes your results.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-category">
+                        <h2><i class="fas fa-apple-alt"></i> Nutrition & Diet</h2>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question" onclick="toggleFaq(this)">
+                                <h3>Do I need to follow a strict diet to see results?</h3>
+                                <div class="faq-icon">+</div>
+                            </div>
+                            <div class="faq-answer">
+                                <p>No! We don't believe in restrictive diets. Our nutrition guidance focuses on creating sustainable, healthy eating habits that fit your lifestyle. We teach you about proper portion sizes, macronutrient balance, and how to make healthier choices without giving up foods you love. The goal is long-term lifestyle change, not short-term deprivation.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question" onclick="toggleFaq(this)">
+                                <h3>Do you provide meal plans?</h3>
+                                <div class="faq-icon">+</div>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Yes! Our nutrition coaching package includes personalized meal plans based on your goals, dietary preferences, and any restrictions. We provide weekly meal suggestions, recipes, shopping lists, and meal prep guidance. Plans are flexible and can be adjusted as your needs change. We also teach you how to create your own balanced meals so you can maintain your results independently.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question" onclick="toggleFaq(this)">
+                                <h3>What about supplements? Do I need them?</h3>
+                                <div class="faq-icon">+</div>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Supplements are not required but can support your goals when used appropriately. We focus on whole food nutrition first. If supplements are recommended, we'll explain why, what to look for, and proper dosing. Common recommendations include protein powder for convenience, vitamin D if deficient, and omega-3s for inflammation. We never push unnecessary supplements - food comes first.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-category">
+                        <h2><i class="fas fa-calendar-alt"></i> Scheduling & Policies</h2>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question" onclick="toggleFaq(this)">
+                                <h3>What is your cancellation policy?</h3>
+                                <div class="faq-icon">+</div>
+                            </div>
+                            <div class="faq-answer">
+                                <p>For personal training sessions, we require 24-hour advance notice for cancellations to avoid being charged. For group classes, cancel at least 2 hours before class start time. Emergencies are handled case-by-case. We understand life happens, but this policy ensures trainers are compensated fairly and other clients have the opportunity to book available slots.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question" onclick="toggleFaq(this)">
+                                <h3>What are your gym hours?</h3>
+                                <div class="faq-icon">+</div>
+                            </div>
+                            <div class="faq-answer">
+                                <p>We're open Monday through Friday from 5:00 AM to 10:00 PM, and Saturday through Sunday from 7:00 AM to 8:00 PM. Members have 24/7 access with their key card. Staffed hours are 6:00 AM to 9:00 PM Monday-Friday and 8:00 AM to 6:00 PM on weekends. Classes run throughout the day - check our schedule page for specific class times.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question" onclick="toggleFaq(this)">
+                                <h3>Can I put my membership on hold?</h3>
+                                <div class="faq-icon">+</div>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Yes! Memberships can be frozen for up to 3 months per year for medical reasons (doctor's note required), extended travel, or other life circumstances. There's a small administrative fee of $10/month to maintain your hold. Unused personal training sessions don't expire and will be waiting for you when you return. Contact us to discuss your specific situation.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question" onclick="toggleFaq(this)">
+                                <h3>Do I need to bring my own equipment?</h3>
+                                <div class="faq-icon">+</div>
+                            </div>
+                            <div class="faq-answer">
+                                <p>No! We provide all necessary equipment including weights, machines, mats, resistance bands, and cardio equipment. We just ask that you bring a water bottle, towel, and wear appropriate workout attire (athletic shoes, comfortable clothes). Lockers are available with locks provided. We also have showers and changing facilities for your convenience.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="text-align: center; margin-top: 4rem; padding: 2rem; background: #f8f9fa; border-radius: 15px;">
+                    <h3 style="color: #1a1a1a; margin-bottom: 1rem;">Still Have Questions?</h3>
+                    <p style="color: #666; margin-bottom: 2rem;">We're here to help! Contact us and we'll get back to you within 24 hours.</p>
+                    <a href="contact.html" class="btn btn-primary">
+                        <span>Contact Us</span>
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="logo">
+                    <i class="fas fa-dumbbell"></i>
+                    <span>FitPro</span>
+                </div>
+                <p>Transform your body, transform your life. Building stronger bodies and minds since 2015.</p>
+                <div style="margin-top: 1.5rem;">
+                    <p style="margin-bottom: 0.5rem;"><i class="fas fa-phone" style="margin-right: 0.5rem;"></i> (555) 123-4567</p>
+                    <p style="margin-bottom: 0.5rem;"><i class="fas fa-envelope" style="margin-right: 0.5rem;"></i> info@fitprotraining.com</p>
+                    <p style="margin-bottom: 0.5rem;"><i class="fas fa-map-marker-alt" style="margin-right: 0.5rem;"></i> 1234 Fitness Blvd, LA, CA 90001</p>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Our Services</h3>
+                <ul>
+                    <li><a href="services.html">Personal Training</a></li>
+                    <li><a href="services.html">Online Training</a></li>
+                    <li><a href="services.html">Group Classes</a></li>
+                    <li><a href="services.html">Nutrition Coaching</a></li>
+                    <li><a href="services.html">Membership Plans</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+                <div style="margin-top: 2rem;">
+                    <h3 style="margin-bottom: 1rem;">Newsletter</h3>
+                    <p style="font-size: 0.9rem; margin-bottom: 1rem;">Get fitness tips & exclusive offers</p>
+                    <form style="display: flex; gap: 0.5rem;">
+                        <input type="email" placeholder="Your email" style="flex: 1; padding: 0.5rem; border-radius: 5px; border: none;">
+                        <button type="submit" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 FitPro Training. All rights reserved. | <a href="#" style="color: rgba(255,255,255,0.6); text-decoration: none;">Privacy Policy</a> | <a href="#" style="color: rgba(255,255,255,0.6); text-decoration: none;">Terms of Service</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

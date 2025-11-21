@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - FitPro</title>
+    <meta name="description" content="FitPro offers personal training, online coaching, group classes, nutrition guidance, and flexible membership plans to fit your fitness goals.">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav>
+            <div class="nav-container">
+                <div class="logo" onclick="window.location.href='index.html'">
+                    <i class="fas fa-dumbbell"></i>
+                    <span>FitPro</span>
+                </div>
+                
+                <ul class="nav-menu" id="navLinks">
+                    <li><a class="nav-link" href="index.html">Home</a></li>
+                    <li><a class="nav-link" href="about.html">About</a></li>
+                    <li><a class="nav-link active" href="service.html">Services</a></li>
+                    <li><a class="nav-link" href="schedule.html">Schedule</a></li>
+                    <li><a class="nav-link" href="blog.html">Blog</a></li>
+                    <li><a class="nav-link" href="testimonials.html">Testimonials</a></li>
+                    <li><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li><a class="nav-link" href="faq.html">FAQ</a></li>
+                    <li><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                
+                <div class="hamburger" onclick="toggleMenu()">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Content -->
+    <div class="page-content">
+        <div class="section-header">
+            <h1>Our Services</h1>
+            <p>Comprehensive fitness solutions for every goal</p>
+        </div>
+        
+        <section class="service-section">
+            <div class="container">
+                <!-- Service 1: Personal Training -->
+                <div class="service-card">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
+                        <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #ff6b35, #ff8555); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-user" style="font-size: 1.5rem; color: white;"></i>
+                        </div>
+                        <h3 style="margin: 0;">Personal Training</h3>
+                    </div>
+                    <p>One-on-one sessions with our certified trainers who will create a customized workout plan based on your goals, fitness level, and schedule. Each session includes form correction, progression tracking, and motivational support to keep you accountable and on track.</p>
+                    
+                    <div style="margin: 2rem 0; padding: 1.5rem; background: #f8f9fa; border-radius: 10px;">
+                        <h4 style="color: #1a1a1a; margin-bottom: 1rem;">What's Included:</h4>
+                        <ul style="margin: 1.5rem 0; line-height: 2; list-style: none;">
+                            <li><i class="fas fa-check-circle" style="color: #ff6b35; margin-right: 0.5rem;"></i> Comprehensive fitness assessment</li>
+                            <li><i class="fas fa-check-circle" style="color: #ff6b35; margin-right: 0.5rem;"></i> Customized workout programs</li>
+                            <li><i class="fas fa-check-circle" style="color: #ff6b35; margin-right: 0.5rem;"></i> Regular progress assessments & adjustments</li>
+                            <li><i class="fas fa-check-circle" style="color: #ff6b35; margin-right: 0.5rem;"></i> Flexible scheduling (morning, afternoon, evening)</li>
+                            <li><i class="fas fa-check-circle" style="color: #ff6b35; margin-right: 0.5rem;"></i> Nutrition guidance included</li>
+                            <li><i class="fas fa-check-circle" style="color: #ff6b35; margin-right: 0.5rem;"></i> Mobile app access for workout tracking</li>
+                        </ul>
+                    </div>
+
+                    <div style="background: #fff3e0; padding: 1rem; border-radius: 8px; margin: 1.5rem 0;">
+                        <p style="margin: 0; color: #666;"><strong>Perfect for:</strong> Individuals who want personalized attention, have specific goals (weight loss, muscle gain, injury recovery), or need extra motivation and accountability.</p>
+                    </div>
+
+                    <p class="price">$75/session</p>
+                    <p style="color: #666; margin-bottom: 1.5rem;">Package deals available: 10 sessions for $700 (save $50) | 20 sessions for $1,350 (save $150)</p>
+                    <a href="contact.html" class="btn btn-primary">
+                        <span>Book Now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Service 2: Online Training & Coaching -->
+                <div class="service-card">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
+                        <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #ff6b35, #ff8555); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-laptop" style="font-size: 1.5rem; color: white;"></i>
+                        </div>
+                        <h3 style="margin: 0;">Online Training & Coaching</h3>
+                    </div>
+                    <p>Can't make it to the gym? Our online coaching program brings FitPro's expert training to you, wherever you are. Get customized workout plans, video demonstrations, nutrition guidance, and weekly check-ins with your dedicated trainer—all from the comfort of your home or while traveling.</p>
+                    
+                    <div style="margin: 2rem 0; padding: 1.5rem; background: #f8f9fa; border-radius: 10px;">
+                        <h4 style="color: #1a1a1a; margin-bottom: 1rem;">What's Included:</h4>
+                        <ul style="margin: 1.5rem 0; line-height: 2; list-style: none;">
+                            <li><i class="fas fa-check-circle" style="color: #ff6b35; margin-right: 0.5rem;"></i> Custom workout plans delivered weekly via app</li>
+                            <li><i class="fas fa-check-circle" style="color: #ff6b35; margin-right: 0.5rem;"></i> Video demonstrations for every exercise</li>
+                            <li><i class="fas fa-check-circle" style="color: #ff6b35; margin-right: 0.5rem;"></i> Video form checks and feedback</li>
+                            <li><i class="fas fa-check-circle" style="color: #ff6b35; margin-right: 0.5rem;"></i> Weekly 30-minute video calls with your trainer</li>
+                            <li><i class="fas fa-check-circle" style="color: #ff6b35; margin-right: 0.5rem;"></i> Unlimited messaging support</li>
+                            <li><i class="fas fa-check-circle" style="color: #ff6b35; margin-right: 0.5rem;"></i> Nutrition guidance & meal planning</li>
+                            <li><i class="fas fa-check-circle" style="color: #ff6b35; margin-right: 0.5rem;"></i> Progress tracking and monthly assessments</li>
+                        </ul>
+                    </div>
+
+                    <div style="background: #fff3e0; padding: 1rem; border-radius: 8px; margin: 1.5rem 0;">
+                        <p style="margin: 0; color: #666;"><strong>Perfect for:</strong> Busy professionals, travelers, remote workers, or anyone who prefers working out at home or on their own schedule.</p>
+                    </div>
+
+                    <p class="price">$150/month</p>
+                    <p style="color: #666; margin-bottom: 1.5rem;">First month 20% off with code: ONLINE20</p>
+                    <a href="contact.html" class="btn btn-primary">
+                        <span>Get Started</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Service 3: Group Classes -->
+                <div class="service-card">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
+                        <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #ff6b35, #ff8555); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-users" style="font-size: 1.5rem; color: white;"></i>
+                        </div>
+                        <h3 style="margin: 0;">Group Fitness Classes</h3>
+                    </div>
+                    <p>Join our energetic group fitness classes designed to challenge you while building community. From high-intensity interval training to yoga and strength circuits, we offer variety to keep your workouts exciting and effective. Train alongside motivated individuals who will inspire and push you to achieve more.</p>
+                    
+                    <div style="margin: 2rem 0; padding: 1.5rem; background: #f8f9fa; border-radius: 10px;">
+                        <h4 style="color: #1a1a1a; margin-bottom: 1rem;">Class Types:</h4>
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem;">
+                            <div>
+                                <h5 style="color: #ff6b35; margin-bottom: 0.5rem;"><i class="fas fa-fire"></i> HIIT & Bootcamp</h5>
+                                <p style="font-size: 0.9rem; color: #666;">High-intensity workouts that torch calories and build endurance</p>
+                            </div>
+                            <div>
+                                <h5 style="color: #ff6b35; margin-bottom: 0.5rem;"><i class="fas fa-dumbbell"></i> Strength & Conditioning</h5>
+                                <p style="font-size: 0.9rem; color: #666;">Build muscle and increase overall strength with resistance training</p>
+                            </div>
+                            <div>
+                                <h5 style="color: #ff6b35; margin-bottom: 0.5rem;"><i class="fas fa-om"></i> Yoga & Mobility</h5>
+                                <p style="font-size: 0.9rem; color: #666;">Improve flexibility, balance, and mental clarity</p>
+                            </div>
+                            <div>
+                                <h5 style="color: #ff6b35; margin-bottom: 0.5rem;"><i class="fas fa-biking"></i> Spin & Cardio Blast</h5>
+                                <p style="font-size: 0.9rem; color: #666;">Heart-pumping cardio sessions that burn fat fast</p>
+                            </div>
+                            <div>
+                                <h5 style="color: #ff6b35; margin-bottom: 0.5rem;"><i class="fas fa-fist-raised"></i> Boxing Fitness</h5>
+                                <p style="font-size: 0.9rem; color: #666;">High-energy boxing workouts for strength and stress relief</p>
+                            </div>
+                            <div>
+                                <h5 style="color: #ff6b35; margin-bottom: 0.5rem;"><i class="fas fa-circle-notch"></i> Circuit Training</h5>
+                                <p style="font-size: 0.9rem; color: #666;">Full-body workouts combining cardio and strength</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="background: #fff3e0; padding: 1rem; border-radius: 8px; margin: 1.5rem 0;">
+                        <p style="margin: 0; color: #666;"><strong>Perfect for:</strong> Anyone who enjoys group energy, wants variety in their workouts, and loves the motivation of working out with others. All fitness levels welcome!</p>
+                    </div>
+
+                    <p class="price">$25/class or $150/month unlimited</p>
+                    <p style="color: #666; margin-bottom: 1.5rem;">New members: First class FREE! No commitment required.</p>
+                    <a href="schedule.html" class="btn btn-primary">
+                        <span>View Schedule</span>
+                        <i class="fas fa-calendar-alt"></i>
+                    </a>
+                </div>
+
+                <!-- Service 4: Nutrition Guidance -->
+                <div class="service-card">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
+                        <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #ff6b35, #ff8555); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-apple-alt" style="font-size: 1.5rem; color: white;"></i>
+                        </div>
+                        <h3 style="margin: 0;">Nutrition Guidance & Coaching</h3>
+                    </div>
+                    <p>Achieve lasting results with our comprehensive nutrition coaching. Our certified nutritionists will help you develop sustainable eating habits that fuel your workouts and support your lifestyle goals. We don't believe in restrictive diets—we teach you how to make better choices that you can maintain for life.</p>
+                    
+                    <div style="margin: 2rem 0; padding: 1.5rem; background: #f8f9fa; border-radius: 10px;">
+                        <h4 style="color: #1a1a1a; margin-bottom: 1rem;">What's Included:</h4>
+                        <ul style="margin: 1.5rem 0; line-height: 2; list-style: none;">
+                            <li><i class="fas fa-check-circle" style="color: #ff6b35; margin-right: 0.5rem;"></i> Initial nutrition assessment & goal setting</li>
+                            <li><i class="fas fa-check-circle" style="color: #ff6b35; margin-right: 0.5rem;"></i> Personalized meal plans with recipes</li>
+                            <li><i class="fas fa-check-circle" style="color: #ff6b35; margin-right: 0.5rem;"></i> Macro tracking education & tools</li>
+                            <li><i class="fas fa-check-circle" style="color: #ff6b35; margin-right: 0.5rem;"></i> Weekly meal prep guidance & shopping lists</li>
+                            <li><i class="fas fa-check-circle" style="color: #ff6b35; margin-right: 0.5rem;"></i> Supplement recommendations (if needed)</li>
+                            <li><i class="fas fa-check-circle" style="color: #ff6b35; margin-right: 0.5rem;"></i> Bi-weekly check-ins and plan adjustments</li>
+                            <li><i class="fas fa-check-circle" style="color: #ff6b35; margin-right: 0.5rem;"></i> Access to nutrition app and resources</li>
+                        </ul>
+                    </div>
+
+                    <div style="background: #fff3e0; padding: 1rem; border-radius: 8px; margin: 1.5rem 0;">
+                        <p style="margin: 0; color: #666;"><strong>Perfect for:</strong> Anyone looking to lose weight, build muscle, improve athletic performance, or simply develop healthier eating habits. Works great alongside any training program.</p>
+                    </div>
+
+                    <p class="price">$200/month</p>
+                    <p style="color: #666; margin-bottom: 1.5rem;">Discounted when bundled with training: $150/month</p>
+                    <a href="contact.html" class="btn btn-primary">
+                        <span>Get Started</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Service 5: Membership Plans -->
+                <div class="service-card" style="background: linear-gradient(135deg, rgba(255, 107, 53, 0.05), rgba(255, 133, 85, 0.05)); border: 2px solid #ff6b35;">
+                    <div style="text-align: center; margin-bottom: 2rem;">
+                        <h3 style="font-size: 2.5rem; color: #ff6b35; margin-bottom: 0.5rem;">Membership Plans</h3>
+                        <p style="font-size: 1.1rem; color: #666;">Choose the plan that fits your lifestyle and fitness goals</p>
+                    </div>
+
+                    <!-- Membership Grid -->
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin: 3rem 0;">
+                        <!-- Basic Plan -->
+                        <div style="background: white; padding: 2rem; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); text-align: center;">
+                            <h4 style="color: #1a1a1a; margin-bottom: 0.5rem;">Basic</h4>
+                            <p style="font-size: 2.5rem; font-weight: bold; color: #ff6b35; margin: 1rem 0;">$49<span style="font-size: 1rem; color: #666;">/mo</span></p>
+                            <ul style="text-align: left; list-style: none; line-height: 2; margin: 1.5rem 0;">
+                                <li><i class="fas fa-check" style="color: #ff6b35; margin-right: 0.5rem;"></i> 24/7 gym access</li>
+                                <li><i class="fas fa-check" style="color: #ff6b35; margin-right: 0.5rem;"></i> All equipment access</li>
+                                <li><i class="fas fa-check" style="color: #ff6b35; margin-right: 0.5rem;"></i> Locker room facilities</li>
+                                <li><i class="fas fa-check" style="color: #ff6b35; margin-right: 0.5rem;"></i> Mobile app access</li>
+                            </ul>
+                            <a href="contact.html" class="btn btn-secondary" style="width: 100%; justify-content: center; background: #f8f9fa; color: #ff6b35; border: 2px solid #ff6b35;">Join Now</a>
+                        </div>
+
+                        <!-- Standard Plan -->
+                        <div style="background: white; padding: 2rem; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); text-align: center;">
+                            <h4 style="color: #1a1a1a; margin-bottom: 0.5rem;">Standard</h4>
+                            <p style="font-size: 2.5rem; font-weight: bold; color: #ff6b35; margin: 1rem 0;">$99<span style="font-size: 1rem; color: #666;">/mo</span></p>
+                            <ul style="text-align: left; list-style: none; line-height: 2; margin: 1.5rem 0;">
+                                <li><i class="fas fa-check" style="color: #ff6b35; margin-right: 0.5rem;"></i> Everything in Basic</li>
+                                <li><i class="fas fa-check" style="color: #ff6b35; margin-right: 0.5rem;"></i> Unlimited group classes</li>
+                                <li><i class="fas fa-check" style="color: #ff6b35; margin-right: 0.5rem;"></i> Guest passes (2/month)</li>
+                                <li><i class="fas fa-check" style="color: #ff6b35; margin-right: 0.5rem;"></i> Towel service</li>
+                            </ul>
+                            <a href="contact.html" class="btn btn-secondary" style="width: 100%; justify-content: center; background: #f8f9fa; color: #ff6b35; border: 2px solid #ff6b35;">Join Now</a>
+                        </div>
+
+                        <!-- Premium Plan -->
+                        <div style="background: linear-gradient(135deg, #ff6b35, #ff8555); padding: 2rem; border-radius: 15px; box-shadow: 0 10px 30px rgba(255, 107, 53, 0.3); text-align: center; position: relative; transform: scale(1.05);">
+                            <div style="position: absolute; top: -15px; left: 50%; transform: translateX(-50%); background: white; color: #ff6b35; padding: 0.5rem 1.5rem; border-radius: 20px; font-weight: bold; font-size: 0.9rem;">MOST POPULAR</div>
+                            <h4 style="color: white; margin-bottom: 0.5rem;">Premium</h4>
+                            <p style="font-size: 2.5rem; font-weight: bold; color: white; margin: 1rem 0;">$199<span style="font-size: 1rem;">/mo</span></p>
+                            <ul style="text-align: left; list-style: none; line-height: 2; margin: 1.5rem 0; color: white;">
+                                <li><i class="fas fa-check" style="margin-right: 0.5rem;"></i> Everything in Standard</li>
+                                <li><i class="fas fa-check" style="margin-right: 0.5rem;"></i> 2 personal training sessions/month</li>
+                                <li><i class="fas fa-check" style="margin-right: 0.5rem;"></i> Priority class booking</li>
+                                <li><i class="fas fa-check" style="margin-right: 0.5rem;"></i> Guest passes (4/month)</li>
+                            </ul>
+                            <a href="contact.html" class="btn btn-primary" style="width: 100%; justify-content: center; background: white; color: #ff6b35;">Join Now</a>
+                        </div>
+
+                        <!-- Elite Plan -->
+                        <div style="background: white; padding: 2rem; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); text-align: center;">
+                            <h4 style="color: #1a1a1a; margin-bottom: 0.5rem;">Elite</h4>
+                            <p style="font-size: 2.5rem; font-weight: bold; color: #ff6b35; margin: 1rem 0;">$299<span style="font-size: 1rem; color: #666;">/mo</span></p>
+                            <ul style="text-align: left; list-style: none; line-height: 2; margin: 1.5rem 0;">
+                                <li><i class="fas fa-check" style="color: #ff6b35; margin-right: 0.5rem;"></i> Everything in Premium</li>
+                                <li><i class="fas fa-check" style="color: #ff6b35; margin-right: 0.5rem;"></i> 4 personal training sessions/month</li>
+                                <li><i class="fas fa-check" style="color: #ff6b35; margin-right: 0.5rem;"></i> Nutrition coaching included</li>
+                                <li><i class="fas fa-check" style="color: #ff6b35; margin-right: 0.5rem;"></i> VIP locker & amenities</li>
+                            </ul>
+                            <a href="contact.html" class="btn btn-secondary" style="width: 100%; justify-content: center; background: #f8f9fa; color: #ff6b35; border: 2px solid #ff6b35;">Join Now</a>
+                        </div>
+                    </div>
+
+                    <div style="background: white; padding: 2rem; border-radius: 10px; margin-top: 2rem;">
+                        <h4 style="color: #1a1a1a; margin-bottom: 1rem; text-align: center;">All Memberships Include:</h4>
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; text-align: center;">
+                            <div>
+                                <i class="fas fa-mobile-alt" style="color: #ff6b35; font-size: 2rem; margin-bottom: 0.5rem;"></i>
+                                <p style="font-weight: 600;">Mobile App Access</p>
+                            </div>
+                            <div>
+                                <i class="fas fa-wifi" style="color: #ff6b35; font-size: 2rem; margin-bottom: 0.5rem;"></i>
+                                <p style="font-weight: 600;">Free WiFi</p>
+                            </div>
+                            <div>
+                                <i class="fas fa-shower" style="color: #ff6b35; font-size: 2rem; margin-bottom: 0.5rem;"></i>
+                                <p style="font-weight: 600;">Showers & Lockers</p>
+                            </div>
+                            <div>
+                                <i class="fas fa-parking" style="color: #ff6b35; font-size: 2rem; margin-bottom: 0.5rem;"></i>
+                                <p style="font-weight: 600;">Free Parking</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p style="text-align: center; margin-top: 2rem; color: #666; font-style: italic;">
+                        <i class="fas fa-info-circle" style="color: #ff6b35;"></i> 
+                        No signup fees! Cancel anytime with 30 days notice. Student & military discounts available.
+                    </p>
+                </div>
+
+                <!-- Special Offers -->
+                <div style="background: linear-gradient(135deg, #ff6b35, #ff8555); padding: 3rem; border-radius: 15px; text-align: center; color: white; margin-top: 3rem;">
+                    <h2 style="color: white; margin-bottom: 1rem;">Special Offers</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 2rem;">
+                        <div style="background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 10px; backdrop-filter: blur(10px);">
+                            <i class="fas fa-gift" style="font-size: 2.5rem; margin-bottom: 1rem;"></i>
+                            <h4 style="color: white; margin-bottom: 0.5rem;">New Member Offer</h4>
+                            <p>First month 50% off any membership + free personal training session</p>
+                        </div>
+                        <div style="background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 10px; backdrop-filter: blur(10px);">
+                            <i class="fas fa-users" style="font-size: 2.5rem; margin-bottom: 1rem;"></i>
+                            <h4 style="color: white; margin-bottom: 0.5rem;">Bring a Friend</h4>
+                            <p>Join with a friend and both get 20% off for 3 months</p>
+                        </div>
+                        <div style="background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 10px; backdrop-filter: blur(10px);">
+                            <i class="fas fa-percentage" style="font-size: 2.5rem; margin-bottom: 1rem;"></i>
+                            <h4 style="color: white; margin-bottom: 0.5rem;">Annual Membership</h4>
+                            <p>Pay annually and save 15% on any membership plan</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Section -->
+                <div style="margin-top: 4rem;">
+                    <h2 style="text-align: center; margin-bottom: 2rem;">Frequently Asked Questions</h2>
+                    <div style="max-width: 800px; margin: 0 auto;">
+                        <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 10px; margin-bottom: 1rem;">
+                            <h4 style="color: #ff6b35; margin-bottom: 0.5rem;">Can I try before I buy?</h4>
+                            <p style="color: #666; margin: 0;">Absolutely! We offer a free facility tour and one complimentary group class for all new visitors. Personal training clients get 20% off their first session.</p>
+                        </div>
+                        <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 10px; margin-bottom: 1rem;">
+                            <h4 style="color: #ff6b35; margin-bottom: 0.5rem;">Are there any contracts?</h4>
+                            <p style="color: #666; margin: 0;">We offer both month-to-month and discounted annual options. Month-to-month memberships can be cancelled with 30 days notice. No hidden fees or cancellation charges.</p>
+                        </div>
+                        <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 10px; margin-bottom: 1rem;">
+                            <h4 style="color: #ff6b35; margin-bottom: 0.5rem;">Can I upgrade or downgrade my membership?</h4>
+                            <p style="color: #666; margin: 0;">Yes! You can change your membership level at any time. Upgrades take effect immediately, while downgrades take effect at your next billing cycle.</p>
+                        </div>
+                    </div>
+                    <div style="text-align: center; margin-top: 2rem;">
+                        <a href="faq.html" style="color: #ff6b35; text-decoration: none; font-weight: bold; font-size: 1.1rem;">
+                            View All FAQs <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Final CTA -->
+                <div style="text-align: center; margin-top: 5rem; padding: 3rem; background: #f8f9fa; border-radius: 15px;">
+                    <h2 style="color: #1a1a1a; margin-bottom: 1rem;">Ready to Get Started?</h2>
+                    <p style="font-size: 1.2rem; color: #666; margin-bottom: 2rem;">Choose the service that's right for you and start your transformation today</p>
+                    <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                        <a href="contact.html" class="btn btn-primary">
+                            <span>Book Free Consultation</span>
+                            <i class="fas fa-calendar-check"></i>
+                        </a>
+                        <a href="schedule.html" class="btn btn-secondary" style="background: white; color: #ff6b35; border: 2px solid #ff6b35;">
+                            <span>View Class Schedule</span>
+                            <i class="fas fa-clock"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+   <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="logo">
+                    <i class="fas fa-dumbbell"></i>
+                    <span>FitPro</span>
+                </div>
+                <p>Transform your body, transform your life. Building stronger bodies and minds since 2015.</p>
+                <div style="margin-top: 1.5rem;">
+                    <p style="margin-bottom: 0.5rem;"><i class="fas fa-phone" style="margin-right: 0.5rem;"></i> (555) 123-4567</p>
+                    <p style="margin-bottom: 0.5rem;"><i class="fas fa-envelope" style="margin-right: 0.5rem;"></i> info@fitprotraining.com</p>
+                    <p style="margin-bottom: 0.5rem;"><i class="fas fa-map-marker-alt" style="margin-right: 0.5rem;"></i> 1234 Fitness Blvd, LA, CA 90001</p>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Our Services</h3>
+                <ul>
+                    <li><a href="services.html">Personal Training</a></li>
+                    <li><a href="services.html">Online Training</a></li>
+                    <li><a href="services.html">Group Classes</a></li>
+                    <li><a href="services.html">Nutrition Coaching</a></li>
+                    <li><a href="services.html">Membership Plans</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+                <div style="margin-top: 2rem;">
+                    <h3 style="margin-bottom: 1rem;">Newsletter</h3>
+                    <p style="font-size: 0.9rem; margin-bottom: 1rem;">Get fitness tips & exclusive offers</p>
+                    <form style="display: flex; gap: 0.5rem;">
+                        <input type="email" placeholder="Your email" style="flex: 1; padding: 0.5rem; border-radius: 5px; border: none;">
+                        <button type="submit" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 FitPro Training. All rights reserved. | <a href="#" style="color: rgba(255,255,255,0.6); text-decoration: none;">Privacy Policy</a> | <a href="#" style="color: rgba(255,255,255,0.6); text-decoration: none;">Terms of Service</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

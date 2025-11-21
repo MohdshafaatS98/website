@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - FitPro</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav>
+            <div class="nav-container">
+                <div class="logo" onclick="window.location.href='index.html'">
+                    <i class="fas fa-dumbbell"></i>
+                    <span>FitPro</span>
+                </div>
+                
+                <ul class="nav-menu" id="navLinks">
+                    <li><a class="nav-link" href="index.html">Home</a></li>
+                    <li><a class="nav-link" href="about.html">About</a></li>
+                    <li><a class="nav-link" href="services.html">Services</a></li>
+                    <li><a class="nav-link" href="schedule.html">Schedule</a></li>
+                    <li><a class="nav-link" href="blog.html">Blog</a></li>
+                    <li><a class="nav-link" href="testimonials.html">Testimonials</a></li>
+                    <li><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li><a class="nav-link" href="faq.html">FAQ</a></li>
+                    <li><a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul>
+                
+                <div class="hamburger" onclick="toggleMenu()">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Content -->
+    <div class="page-content">
+        <div class="section-header">
+            <h1>Contact Us</h1>
+            <p>Get in touch to start your fitness journey</p>
+        </div>
+        
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-form">
+                        <h2 style="margin-bottom: 1.5rem;">Send Us a Message</h2>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Interested In</label>
+                                <select id="service" name="service">
+                                    <option>Personal Training</option>
+                                    <option>Online Training</option>
+                                    <option>Group Classes</option>
+                                    <option>Nutrition Guidance</option>
+                                    <option>Membership</option>
+                                    <option>General Inquiry</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">
+                                <span>Send Message</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="contact-info">
+                        <h2 style="margin-bottom: 1.5rem;">Get In Touch</h2>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div>
+                                <h3>Location</h3>
+                                <p>1234 Fitness Boulevard<br>Los Angeles, CA 90001<br>United States</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                            <div>
+                                <h3>Phone</h3>
+                                <p><a href="tel:+15551234567" style="color: inherit; text-decoration: none;">(555) 123-4567</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+                            <div>
+                                <h3>WhatsApp</h3>
+                                <p><a href="https://wa.me/15551234567" target="_blank" style="color: inherit; text-decoration: none;">(555) 123-4567</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <h3>Email</h3>
+                                <p><a href="mailto:info@fitprotraining.com" style="color: inherit; text-decoration: none;">info@fitprotraining.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-clock"></i></div>
+                            <div>
+                                <h3>Hours</h3>
+                                <p>
+                                    <strong>Monday - Friday:</strong> 5:00 AM - 10:00 PM<br>
+                                    <strong>Saturday - Sunday:</strong> 7:00 AM - 8:00 PM<br>
+                                    <em>24/7 access for members</em>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div style="margin-top: 2rem;">
+                            <h3 style="margin-bottom: 1rem;">Follow Us</h3>
+                            <div class="social-links">
+                                <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Google Maps -->
+                <div style="margin-top: 4rem;">
+                    <h2 style="text-align: center; margin-bottom: 2rem;">Find Us</h2>
+                    <div class="map-container" style="height: 400px;">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.4230994643327!2d-118.24543492347654!3d34.05223597315384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA!5e0!3m2!1sen!2sus!4v1234567890123" 
+                            allowfullscreen="" 
+                            loading="lazy"
+                            style="border: 0; border-radius: 15px;">
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- Additional CTAs -->
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 4rem;">
+                    <div class="feature-card" style="text-align: center;">
+                        <div class="feature-icon"><i class="fas fa-calendar-check"></i></div>
+                        <h3>Book a Class</h3>
+                        <p>Check our schedule and reserve your spot</p>
+                        <a href="schedule.html" class="btn btn-primary" style="margin-top: 1rem;">View Schedule</a>
+                    </div>
+                    <div class="feature-card" style="text-align: center;">
+                        <div class="feature-icon"><i class="fas fa-user"></i></div>
+                        <h3>Free Consultation</h3>
+                        <p>Meet with a trainer to discuss your goals</p>
+                        <a href="#" class="btn btn-primary" style="margin-top: 1rem;">Book Now</a>
+                    </div>
+                    <div class="feature-card" style="text-align: center;">
+                        <div class="feature-icon"><i class="fas fa-building"></i></div>
+                        <h3>Facility Tour</h3>
+                        <p>See our state-of-the-art gym in person</p>
+                        <a href="gallery.html" class="btn btn-primary" style="margin-top: 1rem;">View Gallery</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="logo">
+                    <i class="fas fa-dumbbell"></i>
+                    <span>FitPro</span>
+                </div>
+                <p>Transform your body, transform your life. Building stronger bodies and minds since 2015.</p>
+                <div style="margin-top: 1.5rem;">
+                    <p style="margin-bottom: 0.5rem;"><i class="fas fa-phone" style="margin-right: 0.5rem;"></i> (555) 123-4567</p>
+                    <p style="margin-bottom: 0.5rem;"><i class="fas fa-envelope" style="margin-right: 0.5rem;"></i> info@fitprotraining.com</p>
+                    <p style="margin-bottom: 0.5rem;"><i class="fas fa-map-marker-alt" style="margin-right: 0.5rem;"></i> 1234 Fitness Blvd, LA, CA 90001</p>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Our Services</h3>
+                <ul>
+                    <li><a href="services.html">Personal Training</a></li>
+                    <li><a href="services.html">Online Training</a></li>
+                    <li><a href="services.html">Group Classes</a></li>
+                    <li><a href="services.html">Nutrition Coaching</a></li>
+                    <li><a href="services.html">Membership Plans</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+                <div style="margin-top: 2rem;">
+                    <h3 style="margin-bottom: 1rem;">Newsletter</h3>
+                    <p style="font-size: 0.9rem; margin-bottom: 1rem;">Get fitness tips & exclusive offers</p>
+                    <form style="display: flex; gap: 0.5rem;">
+                        <input type="email" placeholder="Your email" style="flex: 1; padding: 0.5rem; border-radius: 5px; border: none;">
+                        <button type="submit" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 FitPro Training. All rights reserved. | <a href="#" style="color: rgba(255,255,255,0.6); text-decoration: none;">Privacy Policy</a> | <a href="#" style="color: rgba(255,255,255,0.6); text-decoration: none;">Terms of Service</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

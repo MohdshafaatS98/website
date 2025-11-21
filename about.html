@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - FitPro</title>
+    <meta name="description" content="Learn about FitPro's mission, expert trainers, and our approach to transforming lives through fitness and nutrition.">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav>
+            <div class="nav-container">
+                <div class="logo" onclick="window.location.href='index.html'">
+                    <i class="fas fa-dumbbell"></i>
+                    <span>FitPro</span>
+                </div>
+                
+                <ul class="nav-menu" id="navLinks">
+                    <li><a class="nav-link" href="index.html">Home</a></li>
+                    <li><a class="nav-link active" href="about.html">About</a></li>
+                    <li><a class="nav-link" href="services.html">Services</a></li>
+                    <li><a class="nav-link" href="schedule.html">Schedule</a></li>
+                    <li><a class="nav-link" href="blog.html">Blog</a></li>
+                    <li><a class="nav-link" href="testimonials.html">Testimonials</a></li>
+                    <li><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li><a class="nav-link" href="faq.html">FAQ</a></li>
+                    <li><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                
+                <div class="hamburger" onclick="toggleMenu()">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Content -->
+    <div class="page-content">
+        <div class="section-header">
+            <h1>About FitPro</h1>
+            <p>Meet the team dedicated to your fitness success</p>
+        </div>
+        
+        <section class="about-section">
+            <div class="container">
+                <!-- Our Mission -->
+                <div class="about-content">
+                    <div>
+                        <h2>Our Mission</h2>
+                        <p>At FitPro, we believe fitness is more than just physical transformation. It's about building confidence, developing discipline, and creating a lifestyle that supports your overall wellbeing. Founded in 2015, we've helped over 5,000 clients achieve their fitness goals through personalized training, expert nutrition guidance, and unwavering support.</p>
+                        <p style="margin-top: 1rem;">Our state-of-the-art facility features the latest equipment, spacious workout areas, and a welcoming community atmosphere that motivates you to push beyond your limits.</p>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600" alt="Gym facility" class="about-img">
+                </div>
+
+                <!-- Our Story -->
+                <div style="margin: 4rem 0; text-align: center;">
+                    <h2 style="margin-bottom: 2rem;">Our Story</h2>
+                    <div style="max-width: 800px; margin: 0 auto;">
+                        <p style="font-size: 1.1rem; line-height: 1.8; color: #666;">
+                            FitPro was born from a simple vision: to create a fitness space where everyone feels welcome, supported, and empowered to reach their goals. What started as a small 2,000 sq ft gym in 2015 has grown into a thriving 10,000 sq ft fitness center serving over 500 active members. Our success isn't measured in square footage, but in the lives we've transformed—from helping new moms regain their strength to training athletes for competition, and everything in between.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Our Fitness Philosophy -->
+                <div style="margin: 4rem 0;">
+                    <h2 style="text-align: center; margin-bottom: 2rem;">Our Fitness Philosophy</h2>
+                    <div style="max-width: 800px; margin: 0 auto;">
+                        <p style="text-align: center; font-size: 1.1rem; line-height: 1.8; color: #666; margin-bottom: 2rem;">
+                            We believe in a holistic approach to fitness that combines strength training, cardiovascular health, proper nutrition, and mental wellness. Every client is unique, and we design programs that respect your individual goals, limitations, and lifestyle. Our trainers focus on sustainable habits rather than quick fixes, ensuring long-term success and health.
+                        </p>
+                    </div>
+
+                    <!-- Philosophy Points -->
+                    <div class="feature-grid" style="margin-top: 3rem;">
+                        <div class="feature-card">
+                            <div class="feature-icon"><i class="fas fa-heart"></i></div>
+                            <h3>Holistic Approach</h3>
+                            <p>We address mind, body, and nutrition for complete wellness transformation</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon"><i class="fas fa-user-check"></i></div>
+                            <h3>Individualized Programs</h3>
+                            <p>Every program is customized to your unique goals, fitness level, and lifestyle</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon"><i class="fas fa-infinity"></i></div>
+                            <h3>Sustainable Results</h3>
+                            <p>We focus on building lasting habits, not quick fixes that fade away</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon"><i class="fas fa-users"></i></div>
+                            <h3>Community Support</h3>
+                            <p>Train alongside motivated individuals who inspire and encourage each other</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Our Values -->
+                <div style="background: #f8f9fa; padding: 3rem; border-radius: 15px; margin: 4rem 0;">
+                    <h2 style="text-align: center; margin-bottom: 2rem;">Our Core Values</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+                        <div>
+                            <h3 style="color: #ff6b35; margin-bottom: 0.5rem;">Integrity</h3>
+                            <p style="color: #666;">We provide honest guidance and transparent pricing without gimmicks or false promises</p>
+                        </div>
+                        <div>
+                            <h3 style="color: #ff6b35; margin-bottom: 0.5rem;">Excellence</h3>
+                            <p style="color: #666;">We continuously improve our knowledge and maintain the highest training standards</p>
+                        </div>
+                        <div>
+                            <h3 style="color: #ff6b35; margin-bottom: 0.5rem;">Inclusivity</h3>
+                            <p style="color: #666;">Everyone is welcome here, regardless of age, fitness level, or background</p>
+                        </div>
+                        <div>
+                            <h3 style="color: #ff6b35; margin-bottom: 0.5rem;">Empowerment</h3>
+                            <p style="color: #666;">We teach you to understand your body and make informed fitness decisions</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Meet Our Trainers -->
+                <h2 style="text-align: center; margin: 4rem 0 2rem;">Meet Our Expert Trainers</h2>
+
+                <!-- Trainer 1: Sarah Johnson -->
+                <div class="trainer-card">
+                    <div style="display: grid; grid-template-columns: 150px 1fr; gap: 2rem; align-items: start;">
+                        <div style="width: 150px; height: 150px; border-radius: 50%; background: linear-gradient(135deg, #ff6b35, #ff8555); display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-user" style="font-size: 4rem; color: white;"></i>
+                        </div>
+                        <div>
+                            <h2 style="margin-bottom: 0.5rem;">Head Trainer - Sarah Johnson</h2>
+                            <p style="color: #ff6b35; font-weight: 600; margin-bottom: 1rem;">12 Years Experience | Specialization: Personal Training & Sports Nutrition</p>
+                            <p style="line-height: 1.8;">
+                                With 12 years of experience in personal training and sports nutrition, Sarah has helped hundreds of clients transform their bodies and lives. Her holistic approach combines strength training, cardiovascular conditioning, and mindful eating practices. Sarah believes in empowering clients with knowledge, teaching them not just what to do, but why they're doing it. Her passion for fitness began as a competitive swimmer, and she brings that same dedication to every client she works with.
+                            </p>
+                            <p style="margin-top: 1rem; line-height: 1.8;">
+                                <strong>Training Philosophy:</strong> "Fitness isn't about perfection—it's about progress. I help my clients build sustainable habits that fit their lifestyle, not someone else's ideal."
+                            </p>
+                        </div>
+                    </div>
+                    <div style="margin-top: 1.5rem;">
+                        <h3 style="margin-bottom: 1rem;">Certifications & Qualifications:</h3>
+                        <span class="cert-badge">NASM Certified Personal Trainer</span>
+                        <span class="cert-badge">Precision Nutrition Level 2</span>
+                        <span class="cert-badge">CrossFit Level 2 Trainer</span>
+                        <span class="cert-badge">TRX Certified Instructor</span>
+                        <span class="cert-badge">Sports Nutrition Specialist</span>
+                        <span class="cert-badge">First Aid & CPR Certified</span>
+                    </div>
+                    <div style="margin-top: 1.5rem; padding: 1rem; background: rgba(255, 107, 53, 0.1); border-radius: 10px;">
+                        <p style="font-style: italic; color: #666;">
+                            <i class="fas fa-quote-left" style="color: #ff6b35; margin-right: 0.5rem;"></i>
+                            "Working with Sarah changed my life. She doesn't just train you—she educates you. I finally understand how to maintain my results for life."
+                            <strong style="color: #ff6b35;"> - Jennifer M., Client</strong>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Trainer 2: Mike Chen -->
+                <div class="trainer-card">
+                    <div style="display: grid; grid-template-columns: 150px 1fr; gap: 2rem; align-items: start;">
+                        <div style="width: 150px; height: 150px; border-radius: 50%; background: linear-gradient(135deg, #ff6b35, #ff8555); display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-user" style="font-size: 4rem; color: white;"></i>
+                        </div>
+                        <div>
+                            <h2 style="margin-bottom: 0.5rem;">Strength Coach - Mike Chen</h2>
+                            <p style="color: #ff6b35; font-weight: 600; margin-bottom: 1rem;">10 Years Experience | Specialization: Strength & Conditioning</p>
+                            <p style="line-height: 1.8;">
+                                Mike specializes in strength and conditioning, with a background in competitive powerlifting. He's passionate about helping clients build functional strength that translates to everyday activities and athletic performance. Mike has coached everyone from complete beginners to competitive athletes, and he excels at breaking down complex movements into simple, achievable steps. His patient teaching style and focus on proper form have helped countless clients avoid injury while achieving impressive strength gains.
+                            </p>
+                            <p style="margin-top: 1rem; line-height: 1.8;">
+                                <strong>Training Philosophy:</strong> "Strength training isn't just about lifting heavy weights—it's about moving well, building resilience, and feeling powerful in your daily life."
+                            </p>
+                        </div>
+                    </div>
+                    <div style="margin-top: 1.5rem;">
+                        <h3 style="margin-bottom: 1rem;">Certifications & Qualifications:</h3>
+                        <span class="cert-badge">CSCS - Certified Strength & Conditioning Specialist</span>
+                        <span class="cert-badge">USA Weightlifting Level 1</span>
+                        <span class="cert-badge">FMS - Functional Movement Screen</span>
+                        <span class="cert-badge">Precision Nutrition Level 1</span>
+                        <span class="cert-badge">Powerlifting Coach Certification</span>
+                        <span class="cert-badge">First Aid & CPR Certified</span>
+                    </div>
+                    <div style="margin-top: 1.5rem; padding: 1rem; background: rgba(255, 107, 53, 0.1); border-radius: 10px;">
+                        <p style="font-style: italic; color: #666;">
+                            <i class="fas fa-quote-left" style="color: #ff6b35; margin-right: 0.5rem;"></i>
+                            "Mike helped me deadlift 405 lbs at age 42! His knowledge of biomechanics and patient coaching style made all the difference."
+                            <strong style="color: #ff6b35;"> - David T., Client</strong>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Why Choose FitPro -->
+                <div style="margin-top: 5rem; text-align: center; padding: 3rem; background: linear-gradient(135deg, #ff6b35, #ff8555); border-radius: 15px; color: white;">
+                    <h2 style="color: white; margin-bottom: 1.5rem;">Ready to Transform Your Life?</h2>
+                    <p style="font-size: 1.2rem; margin-bottom: 2rem; opacity: 0.95;">Join over 5,000 clients who have achieved their fitness goals with FitPro's expert guidance</p>
+                    <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                        <a href="services.html" class="btn btn-primary" style="background: white; color: #ff6b35;">
+                            <span>View Our Services</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="contact.html" class="btn btn-secondary" style="background: rgba(255, 255, 255, 0.2); color: white; border: 2px solid white;">
+                            <span>Book Free Consultation</span>
+                            <i class="fas fa-calendar-check"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="logo">
+                    <i class="fas fa-dumbbell"></i>
+                    <span>FitPro</span>
+                </div>
+                <p>Transform your body, transform your life. Building stronger bodies and minds since 2015.</p>
+                <div style="margin-top: 1.5rem;">
+                    <p style="margin-bottom: 0.5rem;"><i class="fas fa-phone" style="margin-right: 0.5rem;"></i> (555) 123-4567</p>
+                    <p style="margin-bottom: 0.5rem;"><i class="fas fa-envelope" style="margin-right: 0.5rem;"></i> info@fitprotraining.com</p>
+                    <p style="margin-bottom: 0.5rem;"><i class="fas fa-map-marker-alt" style="margin-right: 0.5rem;"></i> 1234 Fitness Blvd, LA, CA 90001</p>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Our Services</h3>
+                <ul>
+                    <li><a href="services.html">Personal Training</a></li>
+                    <li><a href="services.html">Online Training</a></li>
+                    <li><a href="services.html">Group Classes</a></li>
+                    <li><a href="services.html">Nutrition Coaching</a></li>
+                    <li><a href="services.html">Membership Plans</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+                <div style="margin-top: 2rem;">
+                    <h3 style="margin-bottom: 1rem;">Newsletter</h3>
+                    <p style="font-size: 0.9rem; margin-bottom: 1rem;">Get fitness tips & exclusive offers</p>
+                    <form style="display: flex; gap: 0.5rem;">
+                        <input type="email" placeholder="Your email" style="flex: 1; padding: 0.5rem; border-radius: 5px; border: none;">
+                        <button type="submit" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 FitPro Training. All rights reserved. | <a href="#" style="color: rgba(255,255,255,0.6); text-decoration: none;">Privacy Policy</a> | <a href="#" style="color: rgba(255,255,255,0.6); text-decoration: none;">Terms of Service</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

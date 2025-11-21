@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitPro - Transform Your Life | Personal Training & Fitness</title>
+    <meta name="description" content="FitPro offers expert personal training, group fitness classes, nutrition coaching, and online training programs. Transform your body and life with our certified trainers.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"> 
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav>
+            <div class="nav-container">
+                <div class="logo" onclick="window.location.href='index.html'">
+                    <i class="fas fa-dumbbell"></i>
+                    <span>FitPro</span>
+                </div>
+                <ul class="nav-menu" id="navLinks">
+                    <li><a class="nav-link active" href="index.html">Home</a></li>
+                    <li><a class="nav-link" href="about.html">About</a></li>
+                    <li><a class="nav-link" href="service.html">Services</a></li>
+                    <li><a class="nav-link" href="schedule.html">Schedule</a></li>
+                    <li><a class="nav-link" href="blog.html">Blog</a></li>
+                    <li><a class="nav-link" href="testimonials.html">Testimonials</a></li>
+                    <li><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li><a class="nav-link" href="faq.html">FAQ</a></li>
+                    <li><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                
+                <div class="hamburger" onclick="toggleMenu()">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="hero-gradient"></div>
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="gradient-text">Transform</span> Your Body, 
+                <span class="gradient-text">Transform</span> Your Life
+            </h1>
+            <p class="hero-description">
+                Expert training, nutrition guidance, and unwavering support to help you achieve your fitness goals and unlock your full potential.
+            </p>
+            <div class="hero-buttons">
+                <a href="contact.html" class="btn btn-primary">
+                    <span>Start Your Journey</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="services.html" class="btn btn-secondary">
+                    <i class="fas fa-play"></i>
+                    <span>View Services</span>
+                </a>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="features" style="padding: 4rem 0; background: linear-gradient(135deg, #ff6b35, #ff8555);">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 3rem; text-align: center;">
+                <div style="color: white;">
+                    <h2 style="font-size: 3.5rem; margin-bottom: 0.5rem; color: white;">5,000+</h2>
+                    <p style="font-size: 1.2rem; opacity: 0.95;">Clients Transformed</p>
+                </div>
+                <div style="color: white;">
+                    <h2 style="font-size: 3.5rem; margin-bottom: 0.5rem; color: white;">10+</h2>
+                    <p style="font-size: 1.2rem; opacity: 0.95;">Years Experience</p>
+                </div>
+                <div style="color: white;">
+                    <h2 style="font-size: 3.5rem; margin-bottom: 0.5rem; color: white;">50+</h2>
+                    <p style="font-size: 1.2rem; opacity: 0.95;">Classes Per Week</p>
+                </div>
+                <div style="color: white;">
+                    <h2 style="font-size: 3.5rem; margin-bottom: 0.5rem; color: white;">98%</h2>
+                    <p style="font-size: 1.2rem; opacity: 0.95;">Success Rate</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2>Why Choose FitPro?</h2>
+            <p style="text-align: center; max-width: 700px; margin: 0 auto 3rem; font-size: 1.1rem; color: #666;">
+                We're not just another gym. FitPro is your partner in transformation, offering personalized support, expert guidance, and a community that celebrates your success.
+            </p>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">💪</div>
+                    <h3>Expert Trainers</h3>
+                    <p>Certified professionals with years of experience in fitness and wellness. Our trainers hold multiple certifications and continue their education to bring you the latest in fitness science.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Personalized Plans</h3>
+                    <p>Custom workout and nutrition plans tailored to your unique goals, fitness level, and lifestyle. No cookie-cutter programs—everything is designed specifically for you.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏆</div>
+                    <h3>Proven Results</h3>
+                    <p>Hundreds of success stories from clients who transformed their lives. From weight loss to muscle gain to injury recovery—we've helped thousands achieve their goals.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>24/7 Support</h3>
+                    <p>Access to our app and trainers whenever you need guidance. Track workouts, log nutrition, message your trainer, and stay accountable around the clock.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏋️</div>
+                    <h3>State-of-the-Art Equipment</h3>
+                    <p>10,000 sq ft facility with the latest cardio machines, free weights, functional training areas, and specialized equipment for all your fitness needs.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🤝</div>
+                    <h3>Supportive Community</h3>
+                    <p>Join a welcoming community of motivated individuals. Make friends, find workout partners, and be inspired by others on their fitness journey.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Intro Section -->
+    <section class="intro-section">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center;">
+                <div>
+                    <h2 style="font-size: 2.5rem; margin-bottom: 1.5rem; color: #1a1a1a;">Welcome to FitPro</h2>
+                    <p style="font-size: 1.1rem; line-height: 1.8; color: #666; margin-bottom: 1rem;">
+                        We're not just another gym. FitPro is a community of passionate trainers, nutritionists, and fitness enthusiasts dedicated to helping you achieve lasting transformation.
+                    </p>
+                    <p style="font-size: 1.1rem; line-height: 1.8; color: #666; margin-bottom: 1rem;">
+                        Founded in 2015, we've grown from a small studio to a thriving 10,000 sq ft fitness center. What sets us apart? Our holistic approach that combines personalized training, expert nutrition coaching, and genuine care for your success.
+                    </p>
+                    <p style="font-size: 1.1rem; line-height: 1.8; color: #666; margin-bottom: 2rem;">
+                        Whether you're a complete beginner or an experienced athlete, we provide everything you need to succeed on your fitness journey. Our trainers meet you where you are and guide you to where you want to be.
+                    </p>
+                    <a href="about.html" class="btn btn-primary">
+                        <span>Learn More About Us</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div>
+                    <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600" alt="FitPro Gym" style="width: 100%; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Preview -->
+    <section class="services-preview">
+        <div class="container">
+            <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 1rem;">Our Programs</h2>
+            <p style="text-align: center; max-width: 700px; margin: 0 auto 3rem; font-size: 1.1rem; color: #666;">
+                Choose from a variety of training options designed to fit your lifestyle and help you reach your goals faster.
+            </p>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-user" style="color: #ff6b35;"></i></div>
+                    <h3>Personal Training</h3>
+                    <p>One-on-one sessions with certified trainers who create customized workout plans and provide constant support and accountability.</p>
+                    <p style="color: #ff6b35; font-weight: bold; margin-top: 1rem;">$75/session</p>
+                    <a href="services.html" style="color: #ff6b35; text-decoration: none; font-weight: bold; margin-top: 1rem; display: inline-block;">Learn More →</a>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-laptop" style="color: #ff6b35;"></i></div>
+                    <h3>Online Training</h3>
+                    <p>Train from anywhere with custom workout plans, video demos, weekly check-ins, and unlimited messaging support with your trainer.</p>
+                    <p style="color: #ff6b35; font-weight: bold; margin-top: 1rem;">$150/month</p>
+                    <a href="services.html" style="color: #ff6b35; text-decoration: none; font-weight: bold; margin-top: 1rem; display: inline-block;">Learn More →</a>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-users" style="color: #ff6b35;"></i></div>
+                    <h3>Group Classes</h3>
+                    <p>Energetic classes including HIIT, strength training, yoga, spin, and boxing. All fitness levels welcome in a motivating group environment.</p>
+                    <p style="color: #ff6b35; font-weight: bold; margin-top: 1rem;">$25/class or $150/month unlimited</p>
+                    <a href="services.html" style="color: #ff6b35; text-decoration: none; font-weight: bold; margin-top: 1rem; display: inline-block;">Learn More →</a>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-apple-alt" style="color: #ff6b35;"></i></div>
+                    <h3>Nutrition Coaching</h3>
+                    <p>Personalized meal plans, macro tracking, recipe ideas, and bi-weekly check-ins with certified nutritionists to fuel your results.</p>
+                    <p style="color: #ff6b35; font-weight: bold; margin-top: 1rem;">$200/month</p>
+                    <a href="services.html" style="color: #ff6b35; text-decoration: none; font-weight: bold; margin-top: 1rem; display: inline-block;">Learn More →</a>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="services.html" class="btn btn-primary">
+                    <span>View All Services & Pricing</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="features" style="background: white;">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 1rem;">How It Works</h2>
+            <p style="text-align: center; max-width: 700px; margin: 0 auto 3rem; font-size: 1.1rem; color: #666;">
+                Getting started with FitPro is easy. Follow these simple steps to begin your transformation journey.
+            </p>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+                <div style="text-align: center; padding: 2rem;">
+                    <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #ff6b35, #ff8555); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; color: white; font-size: 2rem; font-weight: bold;">1</div>
+                    <h3 style="margin-bottom: 1rem;">Book Consultation</h3>
+                    <p style="color: #666;">Schedule a free consultation to discuss your goals, fitness level, and what you want to achieve.</p>
+                </div>
+                <div style="text-align: center; padding: 2rem;">
+                    <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #ff6b35, #ff8555); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; color: white; font-size: 2rem; font-weight: bold;">2</div>
+                    <h3 style="margin-bottom: 1rem;">Get Your Plan</h3>
+                    <p style="color: #666;">Receive a customized training and nutrition plan designed specifically for your goals and lifestyle.</p>
+                </div>
+                <div style="text-align: center; padding: 2rem;">
+                    <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #ff6b35, #ff8555); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; color: white; font-size: 2rem; font-weight: bold;">3</div>
+                    <h3 style="margin-bottom: 1rem;">Start Training</h3>
+                    <p style="color: #666;">Begin your sessions with expert trainers who guide, motivate, and support you every step of the way.</p>
+                </div>
+                <div style="text-align: center; padding: 2rem;">
+                    <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #ff6b35, #ff8555); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; color: white; font-size: 2rem; font-weight: bold;">4</div>
+                    <h3 style="margin-bottom: 1rem;">See Results</h3>
+                    <p style="color: #666;">Track your progress, celebrate milestones, and achieve the transformation you've always wanted.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Preview -->
+    <section class="testimonials-preview">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 1rem;">Success Stories</h2>
+            <p style="text-align: center; max-width: 700px; margin: 0 auto 3rem; font-size: 1.1rem; color: #666;">
+                Don't just take our word for it. Hear from real clients who transformed their lives with FitPro.
+            </p>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <div style="margin-left: 2rem;">
+                        <p style="font-size: 1.1rem; line-height: 1.8;">I lost 45 pounds in 6 months with FitPro. The trainers are amazing and truly care about your success! Sarah worked with me to create a sustainable workout routine and nutrition plan. Today I have more energy than ever and actually look forward to my workouts!</p>
+                        <p class="client-name">- Jennifer Martinez, Age 34</p>
+                        <p class="client-result">Lost 45 lbs in 6 months</p>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <div style="margin-left: 2rem;">
+                        <p style="font-size: 1.1rem; line-height: 1.8;">Best investment I've ever made. The personal training transformed my strength and confidence. Mike helped me build strength I never thought possible. I'm now competing in my first powerlifting meet at age 42!</p>
+                        <p class="client-name">- David Thompson, Age 42</p>
+                        <p class="client-result">Deadlifted 405 lbs after 8 months</p>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <div style="margin-left: 2rem;">
+                        <p style="font-size: 1.1rem; line-height: 1.8;">After years of yo-yo dieting, the nutrition coaching at FitPro finally helped me understand how to fuel my body properly. I've lost 60 pounds and kept it off for 2 years. This is real, lasting change!</p>
+                        <p class="client-name">- Marcus Johnson, Age 38</p>
+                        <p class="client-result">Lost 60 lbs and maintained for 2 years</p>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="testimonials.html" class="btn btn-primary">
+                    <span>View All Success Stories</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video/Image Section -->
+    <section class="features" style="background: linear-gradient(135deg, rgba(255, 107, 53, 0.05), rgba(255, 133, 85, 0.05));">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center;">
+                <div style="position: relative; padding-bottom: 56.25%; height: 0; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+                    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, #ff6b35, #ff8555); display: flex; align-items: center; justify-content: center;">
+                        <div style="text-align: center; color: white;">
+                            <i class="fas fa-play-circle" style="font-size: 4rem; margin-bottom: 1rem; cursor: pointer;"></i>
+                            <p style="font-size: 1.2rem; font-weight: bold;">Watch Our Story</p>
+                            <p style="opacity: 0.9;">See how FitPro transforms lives</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2 style="font-size: 2.5rem; margin-bottom: 1.5rem;">Experience the FitPro Difference</h2>
+                    <p style="font-size: 1.1rem; line-height: 1.8; color: #666; margin-bottom: 1rem;">
+                        Step into our state-of-the-art 10,000 sq ft facility featuring the latest equipment, spacious workout areas, and amenities that make every visit comfortable and enjoyable.
+                    </p>
+                    <ul style="list-style: none; padding: 0; margin: 1.5rem 0;">
+                        <li style="margin-bottom: 0.8rem; color: #666;"><i class="fas fa-check-circle" style="color: #ff6b35; margin-right: 0.5rem;"></i> Modern cardio and strength equipment</li>
+                        <li style="margin-bottom: 0.8rem; color: #666;"><i class="fas fa-check-circle" style="color: #ff6b35; margin-right: 0.5rem;"></i> Dedicated functional training area</li>
+                        <li style="margin-bottom: 0.8rem; color: #666;"><i class="fas fa-check-circle" style="color: #ff6b35; margin-right: 0.5rem;"></i> Group fitness studio</li>
+                        <li style="margin-bottom: 0.8rem; color: #666;"><i class="fas fa-check-circle" style="color: #ff6b35; margin-right: 0.5rem;"></i> Clean locker rooms with showers</li>
+                        <li style="margin-bottom: 0.8rem; color: #666;"><i class="fas fa-check-circle" style="color: #ff6b35; margin-right: 0.5rem;"></i> Free WiFi and parking</li>
+                        <li style="margin-bottom: 0.8rem; color: #666;"><i class="fas fa-check-circle" style="color: #ff6b35; margin-right: 0.5rem;"></i> 24/7 access for members</li>
+                    </ul>
+                    <a href="gallery.html" class="btn btn-primary">
+                        <span>Tour Our Facility</span>
+                        <i class="fas fa-images"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Blog Posts -->
+    <section class="features" style="background: white;">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 1rem;">Latest from Our Blog</h2>
+            <p style="text-align: center; max-width: 700px; margin: 0 auto 3rem; font-size: 1.1rem; color: #666;">
+                Expert tips, workout guides, and nutrition advice to support your fitness journey.
+            </p>
+            <div class="blog-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+                <div class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400" alt="Workout" class="blog-img">
+                    <div class="blog-content">
+                        <p class="blog-date">September 15, 2025</p>
+                        <h3>5 Essential Exercises for Building Strength</h3>
+                        <p>Discover the fundamental movements that should be the foundation of every strength training program...</p>
+                        <a href="blog.html" style="color: #ff6b35; text-decoration: none; font-weight: bold;">Read More →</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400" alt="Nutrition" class="blog-img">
+                    <div class="blog-content">
+                        <p class="blog-date">September 10, 2025</p>
+                        <h3>Meal Prep Made Simple</h3>
+                        <p>Learn how to plan and prepare healthy meals for the week ahead, saving time while staying on track...</p>
+                        <a href="blog.html" style="color: #ff6b35; text-decoration: none; font-weight: bold;">Read More →</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400" alt="Recovery" class="blog-img">
+                    <div class="blog-content">
+                        <p class="blog-date">September 5, 2025</p>
+                        <h3>The Importance of Recovery Days</h3>
+                        <p>Why rest days are crucial for progress and how to make the most of your recovery time...</p>
+                        <a href="blog.html" style="color: #ff6b35; text-decoration: none; font-weight: bold;">Read More →</a>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="blog.html" class="btn btn-primary">
+                    <span>View All Articles</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Offers -->
+    <section class="features" style="background: linear-gradient(135deg, #ff6b35, #ff8555); padding: 4rem 0;">
+        <div class="container">
+            <h2 style="text-align: center; color: white; margin-bottom: 1rem;">Limited Time Offers</h2>
+            <p style="text-align: center; color: white; opacity: 0.95; max-width: 700px; margin: 0 auto 3rem; font-size: 1.1rem;">
+                Start your fitness journey today with our exclusive new member promotions
+            </p>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
+                <div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); padding: 2rem; border-radius: 15px; color: white; text-align: center;">
+                    <i class="fas fa-gift" style="font-size: 3rem; margin-bottom: 1rem;"></i>
+                    <h3 style="color: white; margin-bottom: 1rem;">New Member Special</h3>
+                    <p style="font-size: 1.1rem; margin-bottom: 1rem;">First month 50% off any membership + FREE personal training session</p>
+                    <p style="font-weight: bold; font-size: 1.3rem;">Save up to $200!</p>
+                </div>
+                <div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); padding: 2rem; border-radius: 15px; color: white; text-align: center;">
+                    <i class="fas fa-users" style="font-size: 3rem; margin-bottom: 1rem;"></i>
+                    <h3 style="color: white; margin-bottom: 1rem;">Bring a Friend</h3>
+                    <p style="font-size: 1.1rem; margin-bottom: 1rem;">Join with a friend and both get 20% off for 3 months</p>
+                    <p style="font-weight: bold; font-size: 1.3rem;">Perfect for accountability!</p>
+                </div>
+                <div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); padding: 2rem; border-radius: 15px; color: white; text-align: center;">
+                    <i class="fas fa-percentage" style="font-size: 3rem; margin-bottom: 1rem;"></i>
+                    <h3 style="color: white; margin-bottom: 1rem;">Annual Membership</h3>
+                    <p style="font-size: 1.1rem; margin-bottom: 1rem;">Pay annually and save 15% on any membership plan</p>
+                    <p style="font-weight: bold; font-size: 1.3rem;">Best value!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Start Your Transformation?</h2>
+            <p style="max-width: 700px; margin: 0 auto 2rem;">Join hundreds of satisfied clients who have achieved their fitness goals with FitPro. Book your free consultation today and take the first step toward the healthier, stronger you.</p>
+            <div class="cta-buttons">
+                <a href="contact.html" class="btn btn-primary" style="background: white; color: #ff6b35;">
+                    <span>Book Free Consultation</span>
+                    <i class="fas fa-calendar-check"></i>
+                </a>
+                <a href="schedule.html" class="btn btn-secondary" style="background: rgba(255,255,255,0.2); color: white; border: 2px solid white;">
+                    <span>View Class Schedule</span>
+                    <i class="fas fa-clock"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Preview Section -->
+    <section class="features" style="background: white;">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 1rem;">Frequently Asked Questions</h2>
+            <p style="text-align: center; max-width: 700px; margin: 0 auto 3rem; font-size: 1.1rem; color: #666;">
+                Got questions? We've got answers. Here are some of the most common questions from our new members.
+            </p>
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div style="background: #f8f9fa; padding: 2rem; border-radius: 10px; margin-bottom: 1.5rem;">
+                    <h4 style="color: #ff6b35; margin-bottom: 0.5rem;"><i class="fas fa-question-circle"></i> Do I need any experience to join?</h4>
+                    <p style="color: #666; margin: 0;">No! We work with complete beginners to advanced athletes. Our trainers will meet you at your current fitness level and create a program that's perfect for you.</p>
+                </div>
+                <div style="background: #f8f9fa; padding: 2rem; border-radius: 10px; margin-bottom: 1.5rem;">
+                    <h4 style="color: #ff6b35; margin-bottom: 0.5rem;"><i class="fas fa-question-circle"></i> What if I have injuries or limitations?</h4>
+                    <p style="color: #666; margin: 0;">Our trainers are experienced in working with various injuries and limitations. We'll modify exercises to accommodate your needs while still helping you reach your goals safely.</p>
+                </div>
+                <div style="background: #f8f9fa; padding: 2rem; border-radius: 10px; margin-bottom: 1.5rem;">
+                    <h4 style="color: #ff6b35; margin-bottom: 0.5rem;"><i class="fas fa-question-circle"></i> How soon will I see results?</h4>
+                    <p style="color: #666; margin: 0;">Most clients notice improvements in energy and strength within 2-3 weeks. Visible physical changes typically appear within 4-8 weeks with consistent training and proper nutrition.</p>
+                </div>
+                <div style="background: #f8f9fa; padding: 2rem; border-radius: 10px; margin-bottom: 1.5rem;">
+                    <h4 style="color: #ff6b35; margin-bottom: 0.5rem;"><i class="fas fa-question-circle"></i> Can I cancel my membership anytime?</h4>
+                    <p style="color: #666; margin: 0;">Yes! Our month-to-month memberships can be cancelled with 30 days notice. No hidden fees or cancellation charges.</p>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="faq.html" style="color: #ff6b35; text-decoration: none; font-weight: bold; font-size: 1.1rem;">
+                    View All FAQs <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Preview Section -->
+    <section class="features" style="background: #f8f9fa;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
+                <div style="background: white; padding: 2rem; border-radius: 15px; text-align: center; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                    <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #ff6b35, #ff8555); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem;">
+                        <i class="fas fa-phone" style="font-size: 2rem; color: white;"></i>
+                    </div>
+                    <h3 style="margin-bottom: 1rem;">Call Us</h3>
+                    <p style="color: #666; margin-bottom: 1rem;">Speak with our team</p>
+                    <a href="tel:+15551234567" style="color: #ff6b35; text-decoration: none; font-weight: bold; font-size: 1.2rem;">(555) 123-4567</a>
+                </div>
+                <div style="background: white; padding: 2rem; border-radius: 15px; text-align: center; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                    <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #ff6b35, #ff8555); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem;">
+                        <i class="fas fa-envelope" style="font-size: 2rem; color: white;"></i>
+                    </div>
+                    <h3 style="margin-bottom: 1rem;">Email Us</h3>
+                    <p style="color: #666; margin-bottom: 1rem;">Get in touch via email</p>
+                    <a href="mailto:info@fitprotraining.com" style="color: #ff6b35; text-decoration: none; font-weight: bold; font-size: 1.2rem;">info@fitprotraining.com</a>
+                </div>
+                <div style="background: white; padding: 2rem; border-radius: 15px; text-align: center; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                    <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #ff6b35, #ff8555); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem;">
+                        <i class="fas fa-map-marker-alt" style="font-size: 2rem; color: white;"></i>
+                    </div>
+                    <h3 style="margin-bottom: 1rem;">Visit Us</h3>
+                    <p style="color: #666; margin-bottom: 1rem;">1234 Fitness Boulevard</p>
+                    <a href="contact.html" style="color: #ff6b35; text-decoration: none; font-weight: bold; font-size: 1.2rem;">Get Directions</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof Section -->
+    <section class="features" style="background: white; padding: 3rem 0;">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 3rem;">As Featured In</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 3rem; align-items: center; opacity: 0.6;">
+                <div style="text-align: center; font-size: 2rem; font-weight: bold; color: #666;">
+                    <i class="fas fa-star"></i> Fitness Magazine
+                </div>
+                <div style="text-align: center; font-size: 2rem; font-weight: bold; color: #666;">
+                    <i class="fas fa-trophy"></i> Best Gym 2024
+                </div>
+                <div style="text-align: center; font-size: 2rem; font-weight: bold; color: #666;">
+                    <i class="fas fa-award"></i> Top Trainers
+                </div>
+                <div style="text-align: center; font-size: 2rem; font-weight: bold; color: #666;">
+                    <i class="fas fa-certificate"></i> Certified Excellence
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="logo">
+                    <i class="fas fa-dumbbell"></i>
+                    <span>FitPro</span>
+                </div>
+                <p>Transform your body, transform your life. Building stronger bodies and minds since 2015.</p>
+                <div style="margin-top: 1.5rem;">
+                    <p style="margin-bottom: 0.5rem;"><i class="fas fa-phone" style="margin-right: 0.5rem;"></i> (555) 123-4567</p>
+                    <p style="margin-bottom: 0.5rem;"><i class="fas fa-envelope" style="margin-right: 0.5rem;"></i> info@fitprotraining.com</p>
+                    <p style="margin-bottom: 0.5rem;"><i class="fas fa-map-marker-alt" style="margin-right: 0.5rem;"></i> 1234 Fitness Blvd, LA, CA 90001</p>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Our Services</h3>
+                <ul>
+                    <li><a href="services.html">Personal Training</a></li>
+                    <li><a href="services.html">Online Training</a></li>
+                    <li><a href="services.html">Group Classes</a></li>
+                    <li><a href="services.html">Nutrition Coaching</a></li>
+                    <li><a href="services.html">Membership Plans</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+                <div style="margin-top: 2rem;">
+                    <h3 style="margin-bottom: 1rem;">Newsletter</h3>
+                    <p style="font-size: 0.9rem; margin-bottom: 1rem;">Get fitness tips & exclusive offers</p>
+                    <form style="display: flex; gap: 0.5rem;">
+                        <input type="email" placeholder="Your email" style="flex: 1; padding: 0.5rem; border-radius: 5px; border: none;">
+                        <button type="submit" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 FitPro Training. All rights reserved. | <a href="#" style="color: rgba(255,255,255,0.6); text-decoration: none;">Privacy Policy</a> | <a href="#" style="color: rgba(255,255,255,0.6); text-decoration: none;">Terms of Service</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

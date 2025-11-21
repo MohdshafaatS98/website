@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Blog - FitPro</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav>
+            <div class="nav-container">
+                <div class="logo" onclick="window.location.href='index.html'">
+                    <i class="fas fa-dumbbell"></i>
+                    <span>FitPro</span>
+                </div>
+                
+                <ul class="nav-menu" id="navLinks">
+                    <li><a class="nav-link" href="index.html">Home</a></li>
+                    <li><a class="nav-link" href="about.html">About</a></li>
+                    <li><a class="nav-link" href="services.html">Services</a></li>
+                    <li><a class="nav-link" href="schedule.html">Schedule</a></li>
+                    <li><a class="nav-link active" href="blog.html">Blog</a></li>
+                    <li><a class="nav-link" href="testimonials.html">Testimonials</a></li>
+                    <li><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li><a class="nav-link" href="faq.html">FAQ</a></li>
+                    <li><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                
+                <div class="hamburger" onclick="toggleMenu()">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Content -->
+    <div class="page-content">
+        <div class="section-header">
+            <h1>Fitness Blog</h1>
+            <p>Tips, guides, and inspiration for your fitness journey</p>
+        </div>
+        
+        <section class="blog-section">
+            <div class="container">
+                <div class="blog-grid">
+                    <div class="blog-card">
+                        <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400" alt="Workout" class="blog-img">
+                        <div class="blog-content">
+                            <p class="blog-date">September 15, 2025</p>
+                            <h3>5 Essential Exercises for Building Strength</h3>
+                            <p>Discover the fundamental movements that should be the foundation of every strength training program. Learn proper form for squats, deadlifts, bench press, rows, and overhead press to maximize your gains and prevent injury.</p>
+                            <a href="#" style="color: #ff6b35; text-decoration: none; font-weight: bold;">Read More →</a>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400" alt="Nutrition" class="blog-img">
+                        <div class="blog-content">
+                            <p class="blog-date">September 10, 2025</p>
+                            <h3>Meal Prep Made Simple: A Beginner's Guide</h3>
+                            <p>Learn how to plan and prepare healthy meals for the week ahead. This complete guide covers shopping lists, storage tips, and time-saving strategies to help you stay on track with your nutrition goals without spending hours in the kitchen.</p>
+                            <a href="#" style="color: #ff6b35; text-decoration: none; font-weight: bold;">Read More →</a>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400" alt="Recovery" class="blog-img">
+                        <div class="blog-content">
+                            <p class="blog-date">September 5, 2025</p>
+                            <h3>The Importance of Recovery Days</h3>
+                            <p>Why rest days are crucial for progress and how to make the most of your recovery time. Learn about active recovery, sleep optimization, and nutrition strategies that maximize your body's ability to repair and grow stronger.</p>
+                            <a href="#" style="color: #ff6b35; text-decoration: none; font-weight: bold;">Read More →</a>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <img src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=400" alt="Cardio" class="blog-img">
+                        <div class="blog-content">
+                            <p class="blog-date">August 28, 2025</p>
+                            <h3>HIIT vs Steady-State Cardio: Which is Better?</h3>
+                            <p>Understanding the benefits of different cardio approaches and how to choose the right one for your fitness goals. We break down the science, fat-burning potential, and time efficiency of both training methods.</p>
+                            <a href="#" style="color: #ff6b35; text-decoration: none; font-weight: bold;">Read More →</a>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400" alt="Motivation" class="blog-img">
+                        <div class="blog-content">
+                            <p class="blog-date">August 20, 2025</p>
+                            <h3>Staying Motivated Long-Term</h3>
+                            <p>Practical strategies to maintain your fitness motivation through challenges and plateaus. Learn how to set realistic goals, track progress effectively, and build habits that stick even when motivation wanes.</p>
+                            <a href="#" style="color: #ff6b35; text-decoration: none; font-weight: bold;">Read More →</a>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400" alt="Flexibility" class="blog-img">
+                        <div class="blog-content">
+                            <p class="blog-date">August 12, 2025</p>
+                            <h3>Stretching and Mobility Work</h3>
+                            <p>Essential stretching routines to improve flexibility, prevent injury, and enhance overall athletic performance. Includes dynamic warm-ups and static stretches for post-workout recovery.</p>
+                            <a href="#" style="color: #ff6b35; text-decoration: none; font-weight: bold;">Read More →</a>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400" alt="Weight Loss" class="blog-img">
+                        <div class="blog-content">
+                            <p class="blog-date">August 5, 2025</p>
+                            <h3>Best Ab Workout for Core Strength</h3>
+                            <p>Build a rock-solid core with these proven exercises. This comprehensive guide includes beginner to advanced movements, proper breathing techniques, and programming tips to develop visible abs and functional strength.</p>
+                            <a href="#" style="color: #ff6b35; text-decoration: none; font-weight: bold;">Read More →</a>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=400" alt="Supplements" class="blog-img">
+                        <div class="blog-content">
+                            <p class="blog-date">July 28, 2025</p>
+                            <h3>Supplement Guide: What You Actually Need</h3>
+                            <p>Cut through the marketing hype and learn which supplements are backed by science. We review protein powder, creatine, vitamins, and pre-workout supplements to help you make informed decisions.</p>
+                            <a href="#" style="color: #ff6b35; text-decoration: none; font-weight: bold;">Read More →</a>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400" alt="Beginner Tips" class="blog-img">
+                        <div class="blog-content">
+                            <p class="blog-date">July 15, 2025</p>
+                            <h3>Gym Etiquette: A Beginner's Guide</h3>
+                            <p>New to the gym? Learn the unwritten rules that will help you feel confident and comfortable. From equipment sharing to proper hygiene, we cover everything you need to know to be a respectful gym member.</p>
+                            <a href="#" style="color: #ff6b35; text-decoration: none; font-weight: bold;">Read More →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+     <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="logo">
+                    <i class="fas fa-dumbbell"></i>
+                    <span>FitPro</span>
+                </div>
+                <p>Transform your body, transform your life. Building stronger bodies and minds since 2015.</p>
+                <div style="margin-top: 1.5rem;">
+                    <p style="margin-bottom: 0.5rem;"><i class="fas fa-phone" style="margin-right: 0.5rem;"></i> (555) 123-4567</p>
+                    <p style="margin-bottom: 0.5rem;"><i class="fas fa-envelope" style="margin-right: 0.5rem;"></i> info@fitprotraining.com</p>
+                    <p style="margin-bottom: 0.5rem;"><i class="fas fa-map-marker-alt" style="margin-right: 0.5rem;"></i> 1234 Fitness Blvd, LA, CA 90001</p>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Our Services</h3>
+                <ul>
+                    <li><a href="services.html">Personal Training</a></li>
+                    <li><a href="services.html">Online Training</a></li>
+                    <li><a href="services.html">Group Classes</a></li>
+                    <li><a href="services.html">Nutrition Coaching</a></li>
+                    <li><a href="services.html">Membership Plans</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+                <div style="margin-top: 2rem;">
+                    <h3 style="margin-bottom: 1rem;">Newsletter</h3>
+                    <p style="font-size: 0.9rem; margin-bottom: 1rem;">Get fitness tips & exclusive offers</p>
+                    <form style="display: flex; gap: 0.5rem;">
+                        <input type="email" placeholder="Your email" style="flex: 1; padding: 0.5rem; border-radius: 5px; border: none;">
+                        <button type="submit" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 FitPro Training. All rights reserved. | <a href="#" style="color: rgba(255,255,255,0.6); text-decoration: none;">Privacy Policy</a> | <a href="#" style="color: rgba(255,255,255,0.6); text-decoration: none;">Terms of Service</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
